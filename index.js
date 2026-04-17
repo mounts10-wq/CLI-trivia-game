@@ -11,10 +11,6 @@ const { stdin, stdout } = require('node:process');
 const TOTAL_GAME_TIME_MS = 60_000;  // total time cap for the entire quiz
 const TIME_PER_QUESTION_MS = 15_000; // time cap per question
 
-/**
- * Trivia questions array (REQUIRED: array used at least once)
- * Each question is an object (REQUIRED: objects used)
- */
 const QUESTIONS = [
   {
     prompt: 'Which method converts a JSON string into a JavaScript object?',
@@ -302,4 +298,3 @@ function endGame(results) {
 
 // Run the program
 startGame();
-``
