@@ -19,7 +19,7 @@ This lab was created to practice core JavaScript concepts including:
 - The user receives immediate feedback after each answer
 - There is a time limit per question and a total time limit for the entire game
 - At the end, the final score is displayed along with a review of missed questions
--This game is very challenging 
+- This game is very challenging
 
 ---
 
